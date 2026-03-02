@@ -1,31 +1,34 @@
 export const siteConfig = {
-  // IDENTITÉ
-  companyName: "Jez Moto",
+  companyName: "JEZ MOTO",
   tagline: "Atelier de réparation de motos",
   slogan: "Votre spécialiste moto à Pluvigner",
   city: "Pluvigner",
   region: "Morbihan, Bretagne",
   owner: "Thibault Danguin",
   
-  // HERO
   hero: {
-    title: "Jez Moto",
+    superTitle: "ATELIER PROFESSIONNEL",
+    title: "Votre Moto Mérite l'Excellence",
     subtitle: "Atelier de réparation de motos à Pluvigner",
     tagline: "Mécanicien passionné à votre service",
-    description: "Spécialisé dans la réparation et l'entretien de motos, Jez Moto vous accueille dans son atelier à Pluvigner. Toutes marques, tous modèles. Travail soigné et tarifs transparents.",
-    cta: "Prendre rendez-vous"
+    description: "Spécialisé dans la réparation et l'entretien de motos. Toutes marques, tous modèles. Travail soigné et tarifs transparents.",
+    cta: "Prendre rendez-vous",
+    stats: [
+      { value: "10+", label: "Ans d'Expérience" },
+      { value: "Toutes", label: "Marques" },
+      { value: "Expert", label: "Mécanique" },
+      { value: "Sur RDV", label: "Flexible" }
+    ]
   },
 
-  // À PROPOS
   about: {
     title: "Un passionné au service de votre moto",
     story: "Jez Moto est un atelier de réparation de motos créé par Thibault Danguin, mécanicien passionné et expérimenté. Installé à Pluvigner dans le Morbihan, l'atelier propose des services de qualité pour l'entretien et la réparation de votre moto.",
-    mission: "Ma mission : vous offrir un service professionnel, des conseils avisés et un travail de qualité pour que votre moto reste en parfait état. Je mets mon expertise et ma passion au service de tous les motards.",
+    mission: "Ma mission : vous offrir un service professionnel, des conseils avisés et un travail de qualité pour que votre moto reste en parfait état.",
     expertise: "Que ce soit pour un entretien courant, une réparation mécanique ou la remise en état d'une moto accidentée, je prends en charge votre deux-roues avec le plus grand soin.",
-    values: "Chez Jez Moto, je privilégie la qualité du travail, la transparence des tarifs et une relation de confiance avec mes clients."
+    values: "Chez Jez Moto, je privilégie la qualité du travail, la transparence des tarifs et une relation de confiance."
   },
 
-  // SERVICES
   services: {
     title: "Mes services",
     subtitle: "Une gamme complète pour l'entretien de votre moto",
@@ -33,259 +36,153 @@ export const siteConfig = {
       {
         title: "Entretien courant",
         icon: "🔧",
+        badge: "Essentiel",
         description: "Révisions périodiques et entretien régulier",
         details: [
           "Vidange moteur et filtre à huile",
           "Contrôle et réglage de la chaîne",
           "Graissage et lubrification",
-          "Contrôle des niveaux (liquide de frein, liquide de refroidissement)",
-          "Vérification de l'éclairage et de la signalisation",
-          "Contrôle de la batterie",
-          "Nettoyage du filtre à air",
-          "Révision complète selon le kilométrage",
-          "Préparation hivernale",
-          "Remise en route après hivernage"
+          "Contrôle des niveaux",
+          "Vérification éclairage",
+          "Contrôle batterie",
+          "Révision complète"
         ]
       },
       {
         title: "Pneumatiques",
-        icon: "🛞",
+        icon: "🏁",
+        badge: "Sécurité",
         description: "Changement et équilibrage de pneus",
         details: [
-          "Montage de pneus neufs",
-          "Équilibrage des roues",
-          "Réparation de crevaison",
-          "Contrôle de la pression",
-          "Changement de valves",
-          "Conseil sur le choix des pneumatiques adaptés",
-          "Vérification de l'usure des pneus",
-          "Remplacement des chambres à air si nécessaire"
+          "Montage pneus neufs",
+          "Équilibrage roues",
+          "Réparation crevaison",
+          "Contrôle pression",
+          "Changement valves",
+          "Conseil pneumatiques"
         ]
       },
       {
         title: "Freinage",
         icon: "🛑",
-        description: "Entretien et réparation du système de freinage",
+        badge: "Vital",
+        description: "Entretien système de freinage",
         details: [
-          "Remplacement des plaquettes de frein",
-          "Changement des disques de frein",
-          "Purge du circuit de freinage",
-          "Remplacement du liquide de frein",
-          "Contrôle des étriers et pistons",
-          "Réparation des maîtres-cylindres",
-          "Vérification des durites de frein",
-          "Réglage du frein arrière"
+          "Plaquettes de frein",
+          "Disques de frein",
+          "Purge circuit",
+          "Liquide de frein",
+          "Contrôle étriers",
+          "Réglage freins"
         ]
       },
       {
         title: "Réparations mécaniques",
-        icon: "⚙️",
-        description: "Diagnostic et réparation de pannes",
+        icon: "⚡",
+        badge: "Expert",
+        description: "Diagnostic et réparation",
         details: [
-          "Diagnostic de panne",
+          "Diagnostic panne",
           "Réparation moteur",
-          "Problèmes électriques",
+          "Électricité",
           "Embrayage",
           "Transmission",
-          "Suspension et amortisseurs",
-          "Carburateurs et injection",
-          "Démarrage et alternateur",
-          "Réparation de la fourche",
-          "Réglage et synchronisation"
+          "Suspension"
         ]
       },
       {
         title: "Motos accidentées",
-        icon: "🚨",
-        description: "Remise en état de motos accidentées",
+        icon: "🔨",
+        badge: "Rebuild",
+        description: "Remise en état complète",
         details: [
-          "Expertise des dégâts",
-          "Devis détaillé de réparation",
-          "Redressement du cadre si nécessaire",
-          "Remplacement des pièces endommagées",
-          "Remise en état complète",
-          "Contrôle final de sécurité",
-          "Conseils pour l'assurance",
-          "Travail soigné pour une remise à neuf"
+          "Expertise dégâts",
+          "Devis détaillé",
+          "Redressement châssis",
+          "Remplacement pièces",
+          "Remise en état",
+          "Conseils assurance"
         ]
       }
     ]
   },
 
-  // AVANTAGES
   advantages: {
     title: "Pourquoi choisir Jez Moto ?",
     items: [
-      {
-        icon: "👨‍🔧",
-        title: "Mécanicien passionné",
-        description: "Un professionnel qui aime son métier et vos motos"
-      },
-      {
-        icon: "✅",
-        title: "Toutes marques",
-        description: "J'interviens sur toutes les marques et tous les modèles"
-      },
-      {
-        icon: "🔧",
-        title: "Travail soigné",
-        description: "Attention aux détails et finitions de qualité"
-      },
-      {
-        icon: "💰",
-        title: "Tarifs transparents",
-        description: "Devis clair et détaillé avant toute intervention"
-      },
-      {
-        icon: "⏰",
-        title: "Disponibilité",
-        description: "Prise de rendez-vous rapide et flexible"
-      },
-      {
-        icon: "💡",
-        title: "Conseils",
-        description: "Écoute et conseils personnalisés"
-      },
-      {
-        icon: "🛠️",
-        title: "Atelier équipé",
-        description: "Outillage professionnel et pièces de qualité"
-      },
-      {
-        icon: "📍",
-        title: "Proximité",
-        description: "Atelier situé à Pluvigner, Morbihan"
-      }
+      { icon: "👨‍🔧", title: "Passionné", description: "Mécanicien qui aime son métier" },
+      { icon: "✅", title: "Toutes marques", description: "Toutes marques et modèles" },
+      { icon: "🔧", title: "Travail soigné", description: "Finitions de qualité" },
+      { icon: "💰", title: "Tarifs clairs", description: "Devis détaillé transparent" },
+      { icon: "⏰", title: "Disponible", description: "RDV rapide et flexible" },
+      { icon: "💡", title: "Conseils", description: "Écoute personnalisée" },
+      { icon: "🛠️", title: "Bien équipé", description: "Outillage professionnel" },
+      { icon: "📍", title: "Proximité", description: "Pluvigner, Morbihan" }
     ]
   },
 
-  // TYPES DE MOTOS
   motorcycles: {
-    title: "Toutes les motos sont les bienvenues",
-    description: "J'interviens sur tous types de motos, quelle que soit la marque",
+    title: "Toutes les motos bienvenues",
+    description: "Tous types de motos, toutes marques",
     types: [
-      {
-        name: "Sportives",
-        icon: "🏍️",
-        examples: ["Supersport", "Superbike", "Sport-GT"]
-      },
-      {
-        name: "Roadsters",
-        icon: "🏍️",
-        examples: ["Naked", "Street", "Muscle bike"]
-      },
-      {
-        name: "Trails & Adventure",
-        icon: "🏍️",
-        examples: ["Trail", "Adventure", "Enduro"]
-      },
-      {
-        name: "Customs & Cruisers",
-        icon: "🏍️",
-        examples: ["Custom", "Cruiser", "Bobber", "Chopper"]
-      },
-      {
-        name: "GT & Tourisme",
-        icon: "🏍️",
-        examples: ["GT", "Sport-tourisme", "Routière"]
-      },
-      {
-        name: "Classiques & Vintage",
-        icon: "🏍️",
-        examples: ["Café racer", "Scrambler", "Anciennes"]
-      }
+      { name: "Sportives", icon: "🏍️", description: "Supersport, Superbike" },
+      { name: "Roadsters", icon: "⚡", description: "Naked, Street" },
+      { name: "Trails", icon: "🏔️", description: "Trail, Adventure" },
+      { name: "Customs", icon: "🤘", description: "Custom, Cruiser" },
+      { name: "GT", icon: "🛣️", description: "GT, Tourisme" },
+      { name: "Classiques", icon: "🏁", description: "Café racer, Vintage" }
     ],
     brands: [
-      "Yamaha", "Honda", "Kawasaki", "Suzuki", 
+      "Yamaha", "Honda", "Kawasaki", "Suzuki",
       "BMW", "Ducati", "Triumph", "KTM",
       "Harley-Davidson", "Indian", "Royal Enfield",
-      "Aprilia", "MV Agusta", "Moto Guzzi",
-      "et toutes autres marques"
+      "Aprilia", "MV Agusta", "Moto Guzzi"
     ]
   },
 
-  // PROCESSUS
   process: {
     title: "Comment ça marche ?",
     steps: [
-      {
-        number: "01",
-        title: "Contactez-moi",
-        description: "Par téléphone ou message pour décrire votre besoin"
-      },
-      {
-        number: "02",
-        title: "Rendez-vous",
-        description: "Nous fixons un créneau qui vous convient"
-      },
-      {
-        number: "03",
-        title: "Diagnostic",
-        description: "J'examine votre moto et établis un diagnostic précis"
-      },
-      {
-        number: "04",
-        title: "Devis",
-        description: "Je vous propose un devis détaillé et transparent"
-      },
-      {
-        number: "05",
-        title: "Réparation",
-        description: "J'effectue les travaux avec soin et professionnalisme"
-      }
+      { number: "01", title: "Contact", description: "Téléphone ou message" },
+      { number: "02", title: "RDV", description: "Créneau flexible" },
+      { number: "03", title: "Diagnostic", description: "Examen précis" },
+      { number: "04", title: "Devis", description: "Détaillé et transparent" },
+      { number: "05", title: "Réparation", description: "Travail professionnel" }
     ]
   },
 
-  // ZONE D'INTERVENTION
   zone: {
     title: "Secteur d'intervention",
     center: "Pluvigner (56330)",
     mainCities: [
-      "Pluvigner",
-      "Auray",
-      "Carnac",
-      "Vannes",
-      "Lorient",
-      "Ploemeur",
-      "Lanester",
-      "Hennebont",
-      "Quiberon",
-      "Étel",
-      "Erdeven",
-      "Plouharnel",
-      "Locmariaquer",
-      "Baden",
-      "Pluneret",
-      "Sainte-Anne-d'Auray",
-      "Brech",
-      "Landaul",
-      "Landévant",
-      "Baud"
+      "Pluvigner", "Auray", "Carnac", "Vannes", "Lorient",
+      "Étel", "Ploemeur", "Lanester", "Hennebont", "Quiberon",
+      "Erdeven", "Plouharnel", "Locmariaquer", "Baden",
+      "Pluneret", "Sainte-Anne-d'Auray", "Brech"
     ]
   },
 
-  // CONTACT
   contact: {
     title: "Me contacter",
     address: {
-      city: "56330 Pluvigner",
+      street: "16 rue Pasteur",
+      city: "56410 Étel",
+      displayCity: "Pluvigner (56330)",
       region: "Morbihan, Bretagne"
     },
-    phone: "À compléter",
+    phone: "06 13 33 99 31",
     email: "contact@jezmoto.fr",
     schedule: {
       title: "Horaires",
-      note: "Atelier sur rendez-vous",
+      note: "Sur rendez-vous",
       details: [
-        "Du lundi au vendredi",
+        "Lundi - Vendredi : Sur RDV",
         "Horaires flexibles",
-        "Prise de rendez-vous par téléphone",
-        "Atelier situé à Pluvigner"
+        "Contactez-moi"
       ]
     }
   },
 
-  // VALEURS
   values: [
     { text: "Passion", icon: "❤️" },
     { text: "Qualité", icon: "⭐" },
@@ -295,75 +192,96 @@ export const siteConfig = {
     { text: "Proximité", icon: "🤝" }
   ],
 
-  // POINTS FORTS
   highlights: [
-    "Atelier de réparation de motos à Pluvigner",
-    "Mécanicien passionné et expérimenté",
-    "Toutes marques, tous modèles",
-    "Entretien courant et révisions",
-    "Changement de pneumatiques",
-    "Système de freinage",
+    "Atelier réparation motos Pluvigner",
+    "Mécanicien passionné",
+    "Toutes marques",
+    "Entretien et révisions",
+    "Pneumatiques",
+    "Freinage",
     "Réparations mécaniques",
-    "Remise en état de motos accidentées",
-    "Devis transparent",
-    "Travail soigné et professionnel"
+    "Motos accidentées",
+    "Devis transparent"
   ],
 
-  // FAQ
   faq: [
     {
-      question: "Quelles marques de motos réparez-vous ?",
-      answer: "Je travaille sur toutes les marques de motos : Yamaha, Honda, Kawasaki, Suzuki, BMW, Ducati, Triumph, Harley-Davidson, KTM et bien d'autres."
+      question: "Quelles marques réparez-vous ?",
+      answer: "Toutes les marques : Yamaha, Honda, Kawasaki, Suzuki, BMW, Ducati, Triumph, Harley-Davidson, KTM et autres."
     },
     {
       question: "Faut-il prendre rendez-vous ?",
-      answer: "Oui, l'atelier fonctionne sur rendez-vous. Contactez-moi par téléphone pour convenir d'un créneau."
+      answer: "Oui, l'atelier fonctionne sur rendez-vous. Contactez-moi pour convenir d'un créneau."
     },
     {
       question: "Faites-vous des devis ?",
-      answer: "Oui, j'établis systématiquement un devis détaillé et transparent avant toute intervention."
+      answer: "Oui, devis détaillé et transparent avant toute intervention."
     },
     {
-      question: "Pouvez-vous réparer une moto accidentée ?",
-      answer: "Oui, je prends en charge la remise en état de motos accidentées, de l'expertise à la réparation complète."
+      question: "Réparez-vous les motos accidentées ?",
+      answer: "Oui, remise en état complète avec accompagnement assurance."
     },
     {
-      question: "Intervenez-vous sur les motos anciennes ?",
-      answer: "Oui, je peux travailler sur des motos classiques et vintage."
-    },
-    {
-      question: "Où se trouve l'atelier ?",
-      answer: "L'atelier Jez Moto est situé à Pluvigner (56330) dans le Morbihan."
+      question: "Où est l'atelier ?",
+      answer: "Pluvigner (56330), Morbihan. Atelier : 16 rue Pasteur, 56410 Étel."
     }
   ],
 
-  // TYPES D'INTERVENTIONS
-  interventionTypes: [
-    "Entretien courant et révisions",
-    "Vidange et filtres",
-    "Changement de pneumatiques",
-    "Freinage (plaquettes, disques, purge)",
-    "Chaîne et transmission",
-    "Batterie et électricité",
-    "Diagnostic de panne",
-    "Réparations mécaniques",
-    "Embrayage",
-    "Suspension et fourche",
-    "Carburateurs et injection",
-    "Remise en état de motos accidentées"
+  testimonials: [
+    {
+      name: "Sabrina Laurent",
+      bike: "Kawasaki GPZ 500",
+      rating: 5,
+      text: "Merci Thibault pour les entretiens et suivi de mon gpz 500. Pour ta bienveillance, sérieux, professionnalisme, la qualité tant sur l'accueil, explications, conseils que réalisation.",
+      date: "Il y a 3 mois"
+    },
+    {
+      name: "Antoine Da Silva",
+      bike: "Yamaha MT-09 SP",
+      rating: 5,
+      text: "Entretien des 20 000 fait sur ma MT 09 SP, tant sur la rapidité que sur la transparence et la connaissance de la moto. Je recommande !",
+      date: "Il y a 5 mois"
+    },
+    {
+      name: "Buck Rdgrs",
+      bike: "Yamaha MT-07",
+      rating: 5,
+      text: "Un grand merci à Thibault pour son professionnalisme ! Entretien de ma MT-07 réalisé avec soin, explications claires et précises, et surtout des tarifs très corrects.",
+      date: "Il y a 10 mois"
+    },
+    {
+      name: "Christian Pereira",
+      bike: "Yamaha FJ",
+      rating: 5,
+      text: "Une fois de plus, entretien parfait pour mon vieux FJ, avec de très bon conseils, comme d'habitude, merci Thibault 👍",
+      date: "Il y a 3 mois"
+    },
+    {
+      name: "Corentin Makosso",
+      bike: "Client fidèle",
+      rating: 5,
+      text: "Au top du top! Client fidèle depuis quelques années maintenant, je n'ai jamais été déçu du travail! Je recommande les yeux fermés. Travail de passionné pour des passionnés !",
+      date: "Il y a 8 mois"
+    },
+    {
+      name: "Stevan Lorcy",
+      bike: "Suzuki SV",
+      rating: 5,
+      text: "Très content, rapide, arrangeant, et très abordable. Rien à dire, je l'ai déjà conseillé à d'autres personnes, et je reviendrai ✌🏽",
+      date: "Il y a 3 mois"
+    }
   ],
 
-  // SEO
   seo: {
     title: "Jez Moto - Atelier Réparation Motos Pluvigner (56)",
-    description: "Jez Moto : atelier de réparation de motos à Pluvigner. Entretien, révision, réparation mécanique, pneumatiques, freinage. Toutes marques. Mécanicien passionné.",
-    keywords: "réparation moto Pluvigner, garage moto 56, entretien moto Auray, mécanicien moto Vannes, révision moto Carnac, atelier moto Morbihan, Jez Moto, réparation moto Lorient, garage moto Pluvigner"
+    description: "Atelier réparation motos Pluvigner. Entretien, révision, mécanique, pneumatiques, freinage. Toutes marques.",
+    keywords: "réparation moto Pluvigner, garage moto 56, entretien moto Auray, mécanicien moto Vannes"
   },
 
-  // THÈME
   theme: {
-    primary: "red", // Rouge passion moto
-    accent: "slate", // Gris mécanique
-    mode: "dark" // Mode sombre pour ambiance atelier
+    primary: "#EF4444",
+    secondary: "#F59E0B",
+    accent: "#06B6D4",
+    dark: "#0F172A"
   }
 };
